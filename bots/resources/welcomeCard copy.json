@@ -1,0 +1,42 @@
+{
+  "$schema": "http://adaptivecards.io/schemas/adaptive-card.json",
+  "type": "AdaptiveCard",
+  "version": "1.0",
+  "body": [
+    {
+      "type": "Image",
+      "url": "https://www.beroeinc.com/assets/images/beroe-logo-header.png",
+      "size": "stretch"
+    },
+    {
+      "type": "TextBlock",
+      "spacing": "medium",
+      "size": "default",
+      "weight": "bolder",
+      "text": "Welcome to Abi!",
+      "wrap": true,
+      "maxLines": 0,
+      "color":"light"
+    },
+    {
+      "type": "TextBlock",
+      "size": "default",
+      "isSubtle": true,
+      "text": "Labore consequat culpa consequat exercitation. Velit nulla irure et magna id ea sunt est pariatur exercitation ipsum veniam sunt. Ex anim adipisicing esse eiusmod mollit consectetur adipisicing ut in voluptate laboris aute quis.",
+      "wrap": true,
+      "maxLines": 0
+    }
+  ],
+  "actions": [
+    {
+      "type": "Action.Submit",
+      "title": "Price forecast - \"What's the price of nylon in Asia between Nov 2021 to Dec 2021?\"",
+      "data": "What's the price of nylon in Asia from Nov 2021 to Dec 2021?"
+    },
+    {
+      "type": "Action.Submit",
+      "title": "Supplier shortlisting - \"Find women owned beverage can suppliers in India\"",
+      "data": "Find women owned beverage can suppliers in India"
+    }
+  ]
+}
